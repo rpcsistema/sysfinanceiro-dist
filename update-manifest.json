@@ -1,0 +1,7 @@
+{
+  "installerUrl": "https://github.com/rpcsistema/sysfinanceiro-dist/releases/download/v1.0.8/GestaoFinanceiraEmpresarial-Setup.exe",
+  "mandatory": false,
+  "sha256": "64858FC5E4BFE5841CB07A1375B07EAFC2F9721A336A3CA88FD65A03E95933D4",
+  "latestVersion": "1.0.8",
+  "releaseNotes": "Release 1.0.8"
+}
