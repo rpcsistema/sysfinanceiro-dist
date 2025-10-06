@@ -1,0 +1,43 @@
+{
+  "application": {
+    "name": "SysFinanceiro",
+    "version": "1.0.0",
+    "environment": "production"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "ssl": false
+  },
+  "database": {
+    "type": "sqlite",
+    "connection": {
+      "filename": "sysfinanceiro.db"
+    },
+    "pool": {
+      "min": 1,
+      "max": 10
+    }
+  },
+  "security": {
+    "jwt": {
+      "secret": "CHANGE_THIS_SECRET_KEY",
+      "expiresIn": "24h"
+    },
+    "bcrypt": {
+      "rounds": 12
+    }
+  },
+  "logging": {
+    "level": "info",
+    "file": {
+      "enabled": true,
+      "filename": "sysfinanceiro.log",
+      "maxSize": "10MB",
+      "maxFiles": 5
+    },
+    "console": {
+      "enabled": true
+    }
+  }
+}
